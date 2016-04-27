@@ -1,0 +1,371 @@
+/*  *{outline: 1px solid rgba(225,0,0, 0.4);
+
+}*/
+
+/*--------------------------------------------------
+header
+----------------------------------------------------*/
+.header{
+	height: 80px;
+}
+.header nav{
+    position: fixed;
+    top: 0;
+    width: 940px;
+    height: 78px;
+    background: #fff;
+    z-index: 100;
+    -webkit-transition: background-color .5s;
+}
+.header img{
+	height: 100%;
+	padding-left: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.menu1{
+	position: absolute;
+    top: 33px;
+    left: 330px;
+    -webkit-transition: background-color .5s;
+}
+.menu2{
+	position: absolute;
+    top: 33px;
+    left: 574px;
+    -webkit-transition: background-color .5s;
+}
+
+.menu1 li{
+	display: inline-block;
+	list-style: none;
+    border-right: 2px solid #ccc;}
+.menu1 a{
+	text-decoration: none;
+	color: #ccc;
+    padding-right: 15px;
+}
+.menu2 li{
+	display: inline-block;
+	list-style: none;
+    border-right: 2px solid #ccc;}
+.menu2 a{
+	text-decoration: none;
+	color: #ccc;
+    padding-right: 15px;
+}
+.menu2 li:last-child{
+	border-right: none;
+}
+
+/*--------------------------------------------------
+Nosotros
+----------------------------------------------------*/
+.cont-img-b{
+	height: 176px;
+    overflow: hidden;
+    position: relative;
+}
+.img-banner{
+	width: 100%;
+    height: 318px;
+    background: url(../img/semilla.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 145%;
+    position: absolute;
+    top: -142px;
+}
+.text-banner{
+	padding: 40px 190px;
+    text-align: center;
+    color: #9b9b9b;
+    font-size: 10px;
+    background: #f2f2f2;
+}
+.fila-nost{
+	text-align: center;
+	margin-left: 0px;
+}
+
+.fila-nost .col-6 img{
+	position: relative;
+    padding: 40px 40px 0 40px;
+    height: 130px;
+}
+.text-v-m{
+	text-align: center;
+    color: #9b9b9b;
+    font-size: 10px;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-bottom: 40px;
+}
+
+.cont-metodo{
+	height: 255px;
+	overflow: hidden;
+}
+.cont-metodo{
+	position: relative;
+	text-align: center;
+}
+ .metodo,.metodologia{
+ 	position: absolute;
+ 	width: 50%;
+ 	height: 300px;
+ }
+.metodo img,.metodologia .m-fondo{
+	width: 100%;
+}
+.metodologia{ 
+	left: 50%;
+}
+.metodologia .ico-metod{
+	position: absolute;
+	top: 60px;
+    width: 35px;
+}
+.metodologia p{
+	position: absolute;
+	top: 40%;
+    left: 46%;
+    color: #fff;
+}
+.metodologia .text-metod{
+	position: absolute;
+    font-size: 10px;
+    top: 55%;
+    left: 0;
+    color: #fff;
+    padding: 0 70px;
+}
+/*--------------------------------------------------
+Sevicios
+----------------------------------------------------*/
+
+
+.Servicios{
+	text-align: center;
+	margin: 50px 50px 0 50px;
+	font-family: Arial;
+}
+.Servicios p{
+	font-size: 12px;
+	margin: 20px 50px;
+}
+.list-serv ul{
+	list-style: none;
+}
+.list-serv li{
+	display: inline-block;
+	margin: 20px auto;
+	
+}
+.list-serv a{
+	text-decoration: none;
+	color: #088A08;	
+}
+.list-serv h5{
+	padding: 0 50px;
+}
+.list-serv p{
+	margin: 20px 0px;
+	font-size: 9px;
+	color: #848484;
+}
+.list-serv .uno{
+	padding: 0 10px;
+	margin-bottom: -16px;
+	padding: 0;
+}
+.list-serv .dos{
+	margin-bottom: -12px;
+	padding: 0;
+	font-size: 12.1px
+}
+.list-serv .tres{
+	margin-bottom: -15px;
+}
+.Proyectos{
+	background-color: #4B610B;
+	font-family: Arial;
+	text-align: center;
+	color: #fff;
+}
+.Proyectos h4{
+	text-align: left;
+	padding-left: 80px;
+	margin-bottom: 2px;
+	
+}
+.Proyectos .imagen{
+	margin: 40px auto;
+}
+.Proyectos img{
+	height: 180px;
+	width: 280px;
+	margin-top: -2px;
+}
+.nombre h5{
+	 margin-top: 40px;
+	 margin-bottom: 5px;
+}
+.imagen p{
+	font-size: 10px;
+	padding: 0 50px;
+	margin-top: 5px;
+	margin-bottom: 40px;
+}
+/*--------------------------------------------------
+Equipos
+----------------------------------------------------*/
+.Equipos{
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+ .Equipos h3{
+	color: #2BB52B;
+	margin: 20px;
+}
+.cuadrado h2,.cuadradodos h2{
+	font-size: 15px;
+}
+ .cuadrado h4,.cuadradodos h4{
+	font-size: 10px;
+}
+.cuadrado p, .cuadradodos p{
+	font-size: 10px;
+	text-align: center;
+	color: black;
+}
+.redondo, .redondodos{
+	width: 60%;
+	margin: auto;
+	
+
+}
+
+.redondo img, .redondodos img{
+	border-radius: 100%;
+	margin-left: 25%;
+
+}
+.primero, .segundo{
+	display: inline-block;
+	width: 49.7%;
+}
+.cuadrado, .cuadradodos{
+	text-align: center;
+	width: 300px;
+	margin: auto;
+}
+		
+ .redondo li{
+	list-style: none;
+	display: inline-block;
+	margin: -10px;
+ }
+
+ .redondo img, .redondodos img{
+ 	width: 50%;
+ }
+ .cuadrado li, .cuadradodos li{
+ 	width: 30px;
+ 	display: inline-block;
+ 	margin: 2px;
+ }
+ .cuadrado img, .cuadradodos img{
+ 	width: 100%;
+ }
+ /*--------------------------------------------------
+blog
+----------------------------------------------------*/
+.img-fondo{
+	background: url(../img/fondo2.jpg);
+	height: 335px;
+}
+.slider{
+	width: 90%;
+	height: 335px;
+	margin: auto;
+	overflow: hidden;
+}
+.slider .cont-slider-ineter{
+	display: table;
+	position: relative;
+	margin-top: 50px;
+	width: 200%;
+}
+.slider .cont-slider{
+	float: left;
+ 	position: relative;
+ 	 transition: width 2s linear 1s; 
+} 
+.cont-img{
+	display: inline-block;
+	width: 217px;
+    margin: 0 31px 0 31px;
+	font-size: 10px;
+	margin-bottom: 60px;
+}
+.cont-img img{
+	width: 100%;
+}
+.slider .cont-slider-ineter .next{
+	background: url(../img/iconos/slider/ecomunidad-16.png) no-repeat;
+	height: 34px;
+	width: 34px;
+	position: absolute;
+	top: 30%;
+	left: 48%;
+}
+.slider .cont-slider-ineter .prev{
+	background: url(../img/iconos/slider/ecomunidad-15.png) no-repeat;
+	height: 34px;
+	width: 34px;
+	position: absolute;
+	top: 30%;
+	left: 0;
+}
+
+
+
+/*--------------------------------------------------
+Seiguenos
+----------------------------------------------------*/
+.fondo{
+ 	background-color: #616060;
+ 	padding: 50px;
+ 
+ }
+ .fondo div{
+ 	display: inline-block;
+ 	width: 205px;
+ 	height: 155px;
+ 	border: 1px solid white;
+ 	margin: -2px;
+ }
+ 	
+ .fondo  img{
+ 	width: 10%;
+ 	margin-left: 100px;
+ 	margin-top: 80px;
+ }
+.fondo p{
+ 	color: white;
+ 	margin-top: 15px;
+ 	margin-left: 15px;
+ }
+
+ .fondo div .oo{
+ 	width: 27px;
+ }
+
+ /*--------------------------------------------------
+Pie de pagina
+----------------------------------------------------*/
+
+.fondoo{
+	background: #C6C0C0;
+	
+}
